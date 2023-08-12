@@ -1,0 +1,45 @@
+NasdaqDataLink          Retrieves Data from the Nasdaq Data Link
+                        Dataset endpoint and formats
+NasdaqDataLink.api_key
+                        Query or set Nasdaq Data Link API key
+NasdaqDataLink.auth     Query or set Nasdaq Data Link API token
+NasdaqDataLink.base_url
+                        Query or set Base URL for White-labeled sites
+NasdaqDataLink.database.bulk_download_to_file
+                        Downloads a zip with all data from a Nasdaq
+                        Data Link database
+NasdaqDataLink.database.bulk_download_url
+                        Returns the bulk download url
+NasdaqDataLink.dataset.get
+                        Retrieves Data from the Nasdaq Data Link
+                        Dataset endpoint
+NasdaqDataLink.datatable
+                        Retrieves Data from the Nasdaq Data Link
+                        Datatable endpoint
+NasdaqDataLink.datatable.bulk_download_to_file
+                        Downloads a zip with all data requested from a
+                        Nasdaq Data Link database
+NasdaqDataLink.datatable.bulk_download_url
+                        Generates and returns a bulk download url
+NasdaqDataLink.pit.asofdate
+                        Retrieves Point In Time Data from the Nasdaq
+                        Data Link PIT endpoint. As of date is used to
+                        see the table as it was at a specific point in
+                        time in the past.
+NasdaqDataLink.pit.between
+                        Retrieves Point In Time Data from the Nasdaq
+                        Data Link PIT endpoint. Between start and end
+                        will show all rows that were visible at any
+                        point between two specified points in time. It
+                        works inclusively, a row visible exactly at
+                        start or exactly at end will be shown too.
+NasdaqDataLink.pit.fromto
+                        Retrieves Point In Time Data from the Nasdaq
+                        Data Link PIT endpoint. From start to end will
+                        also show all rows that were visible at any
+                        point between two specified points in time,
+                        including start, but excluding end.
+NasdaqDataLink.search   Search the Nasdaq Data Link database
+metaData                Retrieve metadata from a Nasdaq Data Link
+                        series or search results
+nasdaq_data_link.api    Executes Nasdaq Data Link API calls
